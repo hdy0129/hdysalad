@@ -1,0 +1,16 @@
+$(".dp_middle>.tit>li:nth-child(1)").click(function(){
+ $(this).addClass("active")
+ $(".dp_middle>.tit>li:nth-child(2),.dp_middle>.tit>li:nth-child(3),.dp_middle>.tit>li:nth-child(4)").removeClass("active")
+})
+$(".dp_middle>.tit>li:nth-child(2)").click(function(){
+ $(this).addClass("active")
+ $(".dp_middle>.tit>li:nth-child(1),.dp_middle>.tit>li:nth-child(3),.dp_middle>.tit>li:nth-child(4)").removeClass("active")
+})
+$(".dp_middle>.tit>li:nth-child(3)").click(function(){
+ $(this).addClass("active")
+ $(".dp_middle>.tit>li:nth-child(1),.dp_middle>.tit>li:nth-child(2),.dp_middle>.tit>li:nth-child(4)").removeClass("active")
+})
+$(".dp_middle>.tit>li:nth-child(4)").click(function(){
+ $(this).addClass("active")
+ $(".dp_middle>.tit>li:nth-child(1),.dp_middle>.tit>li:nth-child(2),.dp_middle>.tit>li:nth-child(3)").removeClass("active")
+})

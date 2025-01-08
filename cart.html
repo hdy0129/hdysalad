@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>샐러드</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="./join.html">
+  <link rel="stylesheet" href="./login.html">
+  <link rel="stylesheet" href="./cart.html">
+  <link rel="stylesheet" href="./product.html">
+
+ <link rel="stylesheet" href="./css/join.css">
+ <link rel="stylesheet" href="./css/login.css">
+ <link rel="stylesheet" href="./css/cart.css">
+ <link rel="stylesheet" href="./css/product.css">
+
+ 
+  <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/4dc87784b3.js" crossorigin="anonymous"></script>
+  <script src="./js/script.js" defer></script>
+  <script src="./js/login.js"></script>
+  <script src="./js/product.js" defer></script>
+ </head>
+ <body>
+  <div class="wrap">
+    <header id="header">
+      <div class="container">
+     <div class="htop">
+     <div class="logo_left"></div> 
+     <div class="logo">
+      <a href="./index.html"><img src="./img/logo1.png" alt="x"></a>
+     </div><!-- logo end -->
+     <ul class="login_box">
+      <li><a href="./join.html">회원가입</a><span>|</span></li>
+      <li><a href="./login.html">로그인</a><span>|</span></li>
+      <li><a href="./cart.html">장바구니</a></li>
+     </ul><!-- login_box end -->
+     </div><!-- h_top end -->
+     <div class="hbottom">
+      <input type="text" name="search" id="saladsearch" placeholder="다양한 샐러드">
+     </div><!-- hbottom end -->
+     <div class="menu_box">
+      <ul class="menu">
+       <li><a href="#"><img src="./img/bars-solid.svg" alt="x">전체 카테고리</a></li>
+       <li><a href="#">정기배송</a></li>
+       <li><a href="#">샐러드</a></li>
+       <li><a href="#">베스트</a></li>
+       <li><a href="#">이벤트</a></li>
+       <li><a href="#">고객센터</a></li>
+      </ul>
+     </div>
+     <div class="category_bg">
+      
+      <ul class="c_menu">
+       <li><a href="#">정기배송</a>
+        <ul class="c_submenu">
+         <li><a href="#">식단스타터(1주)</a></li>
+         <li><a href="#">2주식단</a></li>
+         <li><a href="#">4주식단</a></li>
+         <li><a href="#">6주+식단</a></li>
+         <li><a href="#">채소만</a></li>
+         <li><a href="#">간편식</a></li>
+        </ul>
+       </li>
+       <li><a href="#">정기식단</a>
+        <ul class="c_submenu">
+         <li><a href="#">짜여진 식단</a></li>
+         <li><a href="#">두끼 밸런스</a></li>
+         <li><a href="#">급찐급빠</a></li>
+         <li><a href="#">클린핏</a></li>
+         <li><a href="#">칼로리 컷</a></li>
+         <li><a href="#">원클릭 일주일</a></li>
+         <li><a href="#">단기집중</a></li>
+        </ul>
+       </li>
+       <li><a href="#">샐러드</a>
+        <ul class="c_submenu">
+         <li><a href="#">데일리 샐러드</a></li>
+         <li><a href="#">테이스티 샐러드</a></li>
+         <li><a href="#">그린 샐러드</a></li>
+         <li><a href="#">채소만 샐러드</a></li>
+         <li><a href="#">맛보기 세트</a></li>
+        </ul>
+       </li>
+       <li><a href="#">베스트</a>
+        <ul class="c_submenu">
+         <li><a href="#">첫 구매 추천</a></li>
+         <li><a href="#">베스트 식단 TOP5</a></li>
+         <li><a href="#">MD 추천</a></li>
+        </ul>
+       </li>
+      </ul><!-- c_menu end -->
+      
+      <div class="c_close"><button type="button">X</button></div>
+     </div><!-- category_bg end -->
+   </div><!--header container end -->
+    </header><!-- header end -->
+  <div class="cart_wrap">
+   
+   <div class="cart_tit">
+     <p>장바구니</p>
+     <ul class="cart_txt">
+      <li>01 장바구니</li><span>></span>
+      <li>02 주문서/결제</li><span>></span>
+      <li>03 주문완료</li>
+     </ul>
+   </div><!-- cart_tit end -->
+  
+   <div class="cart_product">
+    <ul class="pro_tit">
+      <li>일반상품</li>
+    </ul><!-- pro_tit end -->
+    <ul class="pro_list_top">
+      <li class="left_check"><form action="#"><input type="checkbox" class="check"></form></li>
+      <ul class="right_txt">
+       <li><i class="fa-solid fa-heart"></i>선택찜하기</li>
+       <li><i class="fa-solid fa-trash-can"></i>선택 삭제</li>
+      </ul><!-- right_txt end -->
+    </ul><!-- pro_list_top end -->
+    <ul class="pro_list_middle">
+     <li><form action="#"><input type="checkbox" class="check"></form>
+     <a href="#"><img src="./img/cart_img1.jpg" alt="x"></a>닭가슴살 샐러드
+     <span><button type="button">-</button><input type="text"><button type="button">+</button></span><p>6,900원</p></li>
+     <li><form action="#"><input type="checkbox" class="check"></form>
+      <a href="#"><img src="./img/cart_img2.jpg" alt="x"></a>크래미 샐러드
+      <span><button type="button">-</button><input type="text"><button type="button">+</button></span><p>6,900원</p> 
+     </li>
+      <li><form action="#"><input type="checkbox" class="check"></form>
+       <a href="#"><img src="./img/cart_img3.jpg" alt="x">	
+       </a> 샐러드 23종 골라담기
+       <span><button type="button">-</button><input type="text"><button type="button">+</button></span><p>10,900원</p> 
+      </li>
+    </ul>
+    <ul class="pro_list_bottom">
+      <li>총 상품금액<span>29,500원</span></li>
+      <li><img src="./img/bl-plus.svg" alt="x"></li>
+      <li>총 할인금액<span>4,800원</span></li>
+      <li><img src="./img/bl-plus.svg" alt="x"></li>
+      <li>총 배송비<span>3,500원</span></li>
+      <li><img src="./img/bl-equal.svg" alt="x"></li>
+      <li>결제금액<span>28,200원</span></li>
+    </ul><!-- pro_list_bottom end -->
+  </div><!-- cart_product end -->
+  <ul class="pro_box">
+    <li>쇼핑 계속하기</li>
+    <li>선택 상품 주문</li>
+    <li>전체 주문</li>
+  </ul>  
+</div><!-- cart_wrap -->
+
+
+ </div><!--header container end -->
+ <footer id="footer">
+  
+  
+  <div class="fbottom">
+  <div class="fb_top">
+    <ul class="f_menu">
+    <li><a href="#">회사소개</a></li><span>|</span>
+    <li><a href="#">이용약관</a></li><span>|</span>
+    <li><a href="#">개인정보처리방침</a></li><span>|</span>
+    <li><a href="#">이용안내</a></li>
+  </ul><!-- f_menu end -->
+  <ul class="sns">
+    <li><a href="#"><img src="./img/sns_insta.png" alt="x"></a></li>
+    <li><a href="#"><img src="./img/sns_fb.png" alt="x"></a></li>
+    <li><a href="#"><img src="./img/sns_you.png" alt="x"></a></li>
+  </ul>
+  </div><!-- fb_top end -->
+
+  <div class="fb_bottom">
+  <ul class="copy">
+    
+      <li>상호: (주)이프리 | 대표: 유미정 | 개인정보관리책임자: 이연범 | 전화: 1544-7386 | 이메일: epfree@naver.com/li>
+      <li>주소: 대전광역시 유성구 문지로 291, 206호 | 사업자등록번호: 831-81-02134 | 통신판매: 제2021-대전유성-0724호 | 호스팅제공자: (주)식스샵</li>
+    <li>Copyright©pocketsalad.co.krAll rights reserved.</li>
+  </ul>
+  <div class="logo"><a href="#"><img src="./img/logo1.png" alt="x"></a></div>
+  </div><!-- fb_bottom end -->
+  </div><!-- fbottom end -->
+  
+  </footer><!-- footer end -->
+   </div><!-- wrap end -->
+  
+ 
+</body>
+</body>
+</html>

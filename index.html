@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>샐러드</title>
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<!--  <link rel="stylesheet" href="./join.html">
+ <link rel="stylesheet" href="./login.html">
+ <link rel="stylesheet" href="./cart.html">
+ <link rel="stylesheet" href="./product.html">
+
+<link rel="stylesheet" href="./css/join.css">
+<link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="./css/cart.css">
+<link rel="stylesheet" href="./css/product.css">
+ -->
+
+
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="https://kit.fontawesome.com/4dc87784b3.js" crossorigin="anonymous"></script>
+ <script src="./js/script.js" defer></script>
+ <script src="./js/login.js"></script>
+ <script src="./js/product.js" defer></script>
+</head>
+<body>
+ <div class="wrap">
+   <header id="header">
+   <div class="container">
+  <div class="htop">
+  <div class="logo_left"></div> 
+  <div class="logo">
+   <a href="./index.html"><img src="./img/logo1.png" alt="x"></a>
+  </div><!-- logo end -->
+  <ul class="login_box">
+   <li><a href="./join.html">회원가입</a><span>|</span></li>
+   <li><a href="./login.html">로그인</a><span>|</span></li>
+   <li><a href="./cart.html">장바구니</a></li>
+  </ul><!-- login_box end -->
+  </div><!-- h_top end -->
+  <div class="hbottom">
+   <input type="text" name="search" id="saladsearch" placeholder="다양한 샐러드">
+  </div><!-- hbottom end -->
+  <div class="menu_box">
+   <ul class="menu">
+    <li><a href="#"><img src="./img/bars-solid.svg" alt="x">전체 카테고리</a></li>
+    <li><a href="#">정기배송</a></li>
+    <li><a href="#">샐러드</a></li>
+    <li><a href="#">베스트</a></li>
+    <li><a href="#">이벤트</a></li>
+    <li><a href="#">고객센터</a></li>
+   </ul>
+  </div>
+  <div class="category_bg">
+   
+   <ul class="c_menu">
+    <li><a href="#">정기배송</a>
+     <ul class="c_submenu">
+      <li><a href="#">식단스타터(1주)</a></li>
+      <li><a href="#">2주식단</a></li>
+      <li><a href="#">4주식단</a></li>
+      <li><a href="#">6주+식단</a></li>
+      <li><a href="#">채소만</a></li>
+      <li><a href="#">간편식</a></li>
+     </ul>
+    </li>
+    <li><a href="#">정기식단</a>
+     <ul class="c_submenu">
+      <li><a href="#">짜여진 식단</a></li>
+      <li><a href="#">두끼 밸런스</a></li>
+      <li><a href="#">급찐급빠</a></li>
+      <li><a href="#">클린핏</a></li>
+      <li><a href="#">칼로리 컷</a></li>
+      <li><a href="#">원클릭 일주일</a></li>
+      <li><a href="#">단기집중</a></li>
+     </ul>
+    </li>
+    <li><a href="#">샐러드</a>
+     <ul class="c_submenu">
+      <li><a href="#">데일리 샐러드</a></li>
+      <li><a href="#">테이스티 샐러드</a></li>
+      <li><a href="#">그린 샐러드</a></li>
+      <li><a href="#">채소만 샐러드</a></li>
+      <li><a href="#">맛보기 세트</a></li>
+     </ul>
+    </li>
+    <li><a href="#">베스트</a>
+     <ul class="c_submenu">
+      <li><a href="#">첫 구매 추천</a></li>
+      <li><a href="#">베스트 식단 TOP5</a></li>
+      <li><a href="#">MD 추천</a></li>
+     </ul>
+    </li>
+   </ul><!-- c_menu end -->
+   
+   <div class="c_close"><button type="button">X</button></div>
+  </div><!-- category_bg end -->
+</div><!--header container end -->
+ </header><!-- header end -->
+
+<nav id="main">
+  <div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide slide s1"><a href="#"><img src="./img/slide1.jpg" alt="x"></a></div>
+      <div class="swiper-slide slide s3"><a href="#"><img src="./img/slide3.jpg" alt="x"></a></div>
+      <div class="swiper-slide slide s4"><a href="#"><img src="./img/slide4.jpg" alt="x"></a></div>
+      <div class="swiper-slide slide s5"><a href="#"><img src="./img/slide5.jpg" alt="x"></a></div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+   </div>
+</nav>
+
+
+<div class="container">
+ <section id="contents">
+ <div class="con1">
+  <a href="#"><img src="./img/con1_img1.gif" alt="x"><p>신규회원 혜택</p></a>
+  <a href="#"><img src="./img/con1_img2.png" alt="x"><p>식단 구독</p></a>
+  <a href="#"><img src="./img/con1_img3.png" alt="x"><p>이벤트</p></a>
+  <a href="#"><img src="./img/con1_img4.png" alt="x"><p>SNS</p></a>
+  <a href="#"><img src="./img/con1_img5.png" alt="x"><p>샐러드</p></a>
+ </div><!-- con1 end -->
+ <div class="con2">
+   <div class="con2_txt">
+     <h2>Salad U의 베스트 메뉴</h2>
+     <p>매일 새벽 신선함을 담은 샐러드</p>
+     <span>입맛따라 취향따라<br>
+           원하는 샐러드로 맛있는 식단관리      
+     </span>
+     <a href="#"><button type="button">메뉴 더보기 ></button></a>
+   </div><!-- con2_txt  end -->
+   <div class="con2_img">
+    <div class="swiper mySwiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide con2_slide c1"> 
+         <a href="./product.html"><img src="./img/con2_img1.jpg" alt="x"></a>
+         <a href="#"><img src="./img/con2_img2.jpg" alt="x"></a>
+      
+       </div> <!-- con2_slide c1 end -->
+       <div class="swiper-slide con2_slide  c2"> 
+        <a href="#"><img src="./img/con2_img3.jpg" alt="x"></a>
+        <a href="#"><img src="./img/con2_img4.jpg" alt="x"></a>
+      
+      </div><!-- con2_slide c3 end -->
+      <div class="swiper-slide con2_slide c3"> 
+       <a href="#"><img src="./img/con2_img5.jpg" alt="x"></a>
+       <a href="#"><img src="./img/con2_img6.jpg" alt="x"></a>
+     
+     </div><!-- con2_slide c3 end -->
+    
+        
+      </div><!--  con2 swiper-wrapper end -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div><!-- con2_swiper mySwiper end -->
+   
+   </div><!-- con2_img end -->
+ </div><!-- con2 end -->
+ <div class="con3">
+  <h1>정기배송</h1>
+  <p>1주에서 8주, 건강한 습관의 시작</p>
+  <div class="con3_tit">
+   <ul class="tit">
+    <li class="active">2주</li>
+    <li>4주</li>
+    <li>6주+</li>
+    <li>1주</li>
+   </ul>
+  </div><!-- con3_tit end -->
+  <div class="con3_box">
+   <div class="w2_box wbox">
+    <ul class="box1 box">
+    <li><a href="#"><img src="./img/2w_img1.jpg" alt="x"></a></li>
+    <li><a href="#">2주 정기배송 샐러드 주 5일</li>
+    <li><a href="#"><span class="sale">22%</span><p class="price">48,500원</p><p class="cost">62,000원</p></a></li>
+  </ul>
+  <ul class="box2 box">
+    <li><a href="#"><img src="./img/2w_img1.jpg" alt="x"></a></li>
+    <li><a href="#">2주 정기배송 샐러드 주 4일</li>
+    <li><span class="sale">21%</span><p class="price">38,960원</p><p class="cost">49,600원</p></a></li>
+  </ul>
+  <ul class="box3 box">
+    <li><a href="#"><img src="./img/2w_img1.jpg" alt="x"></a></li>
+    <li><a href="#">2주 정기배송 샐러드 주 6일</li>
+    <li><span class="sale">22%</span><p class="price">58,200원</p><p class="cost">74,400원</p></a></li>
+  </ul>
+  <ul class="box4 box">
+    <li><a href="#"><img src="./img/2w_img1.jpg" alt="x"></a></li>
+    <li><a href="#">2주 정기배송 짜여진 식단</li>
+    <li><span class="sale">18%</span><p class="price">83,000원</p><p class="cost">101,600원</p></a></li>
+  </ul>
+   
+   </div><!-- w2_box end -->
+   <div class="w4_box wbox">
+    <ul class="box5 box">
+      <li><a href="#"><img src="./img/w4_img1.jpg" alt="x"></a></li>
+      <li><a href="#">4주 정기배송 샐러드 주 5일</li>
+      <li><a href="#"><span class="sale">22%</span><p class="price">96,400원</p><p class="cost">124,000원</p></a></li>
+    </ul>
+    <ul class="box6 box">
+      <li><a href="#"><img src="./img/w4_img2.jpg" alt="x"></a></li>
+      <li><a href="#">2주 정기배송 짜여진 식단</li>
+      <li><span class="sale">21%</span><p class="price">104,600원</p><p class="cost">127,400원</p></a></li>
+    </ul>
+    <ul class="box7 box">
+      <li><a href="#"><img src="./img/w4_img3.jpg" alt="x"></a></li>
+      <li><a href="#">2주 정기배송 샐러드 주 4주식단</li>
+      <li><span class="sale">22%</span><p class="price">77,600원</p><p class="cost">99,200원</p></a></li>
+    </ul>
+    <ul class="box8 box">
+      <li><a href="#"><img src="./img/w4_img4.jpg" alt="x"></a></li>
+      <li><a href="#">4주 정기배송 샐러드 주6일</li>
+      <li><span class="sale">18%</span><p class="price">115,680원</p><p class="cost">148,800원</p></a></li>
+    </ul>
+   </div><!-- w4_box end -->
+   <div class="w6_box wbox">
+    <ul class="box9 box">
+      <li><a href="#"><img src="./img/w6_img1.jpg" alt="x"></a></li>
+      <li><a href="#">8주 정기배송 샐러드 주 5일</li>
+      <li><a href="#"><span class="sale">23%</span><p class="price">190,480원</p><p class="cost">248,000원</p></a></li>
+    </ul>
+    <ul class="box10 box">
+      <li><a href="#"><img src="./img/w6_img2.jpg" alt="x"></a></li>
+      <li><a href="#">8주 정기배송 채소만 샐러드 주5일 </li>
+      <li><span class="sale">37%</span><p class="price">112,800원</p><p class="cost">180,000원</p></a></li>
+    </ul>
+    <ul class="box11 box">
+      <li><a href="#"><img src="./img/w6_img3.jpg" alt="x"></a></li>
+      <li><a href="#">8주 정기배송 샐러드 주6일</li>
+      <li><span class="sale">23%</span><p class="price">228,960원</p><p class="cost">297,600원</p></a></li>
+    </ul>
+    <ul class="box12 box">
+      <li><a href="#"><img src="./img/w6_img4.jpg" alt="x"></a></li>
+      <li><a href="#">4주 정기배송 샐러드 주6일</li>
+      <li><span class="sale">23%</span><p class="price">153,600원</p><p class="cost">198,400원</p></a></li>
+    </ul>
+   </div><!-- w6_box end -->
+   <div class="w1_box wbox">
+    <ul class="box13 box">
+      <li><a href="#"><img src="./img/w1_img1.jpg" alt="x"></a></li>
+      <li><a href="#">하루에 한 끼를 샐러드로 5일</li>
+      <li><a href="#"><span class="sale">21%</span><p class="price">24,350원</p><p class="cost">31,000원</p></a></li>
+    </ul>
+    <ul class="box14 box">
+      <li><a href="#"><img src="./img/w1_img2.jpg" alt="x"></a></li>
+      <li><a href="#">하루에 두 끼를 샐러드로 5일 </li>
+      <li><span class="sale">22%</span><p class="price">48,500원</p><p class="cost">62,000원</p></a></li>
+    </ul>
+    <ul class="box15 box">
+      <li><a href="#"><img src="./img/w1_img3.jpg" alt="x"></a></li>
+      <li><a href="#">샐러드와 간편식으로 5일</li>
+      <li><span class="sale">23%</span><p class="price">41,750원</p><p class="cost">58,500원</p></a></li>
+    </ul>
+    <ul class="box16 box">
+      <li><a href="#"><img src="./img/w1_img4.jpg" alt="x"></a></li>
+      <li><a href="#">너랑 나랑 하루에 한 끼를 샐러드로 5일</li>
+      <li><span class="sale">22%</span><p class="price">48,500원</p><p class="cost">62,000원</p></a></li>
+    </ul>
+   </div>
+  </div> <!-- con3_box end -->
+  <div class="con3_bottom w2"><p>2주 식단 더보기 ></p></div>
+  <div class="con3_bottom w4"><p>4주 식단 더보기 ></p></div>
+  <div class="con3_bottom w6"><p>6주+ 식단 더보기 ></p></div>
+  <div class="con3_bottom w1"><p>1주 식단 더보기 ></p></div>
+ </div><!-- con3 end -->
+ <div class="con4">
+<a href="#"><img src="./img/m_banner.jpg" alt="x"></a>
+<a href="#"><img src="./img/m_banner2.jpg" alt="x"></a>
+ </div><!-- con4 end -->
+
+<div class="con5">
+  <h1>클린 샐러드로 집중 다이어트</h1>
+  <p>하루 두 끼 샐러드로 집중 관리</p>
+  <div class="con5_box wbox">
+    <ul class="box17 box">
+      <li><a href="#"><img src="./img/con5_img1.jpg" alt="x"></a></li>
+      <li><a href="#">하루에 한 끼를 샐러드로 5일</li>
+      <li><a href="#"><span class="sale">21%</span><p class="price">24,350원</p><p class="cost">31,000원</p></a></li>
+    </ul>
+    <ul class="box18 box">
+      <li><a href="#"><img src="./img/con5_img2.jpg" alt="x"></a></li>
+      <li><a href="#">하루에 두 끼를 샐러드로 5일 </li>
+      <li><span class="sale">22%</span><p class="price">48,500원</p><p class="cost">62,000원</p></a></li>
+    </ul>
+    <ul class="box19 box">
+      <li><a href="#"><img src="./img/con5_img3.jpg" alt="x"></a></li>
+      <li><a href="#">샐러드와 간편식으로 5일</li>
+      <li><span class="sale">23%</span><p class="price">41,750원</p><p class="cost">58,500원</p></a></li>
+    </ul>
+    <ul class="box20 box">
+      <li><a href="#"><img src="./img/con5_img4.jpg" alt="x"></a></li>
+      <li><a href="#">너랑 나랑 하루에 한 끼를 샐러드로 5일</li>
+      <li><span class="sale">22%</span><p class="price">48,500원</p><p class="cost">62,000원</p></a></li>
+    </ul>
+   </div>
+</div><!-- con5 end -->
+<div class="con6">
+  <h1>쏙쏙! 한 팩 골라담기</h1>
+  <p>구매 만족도 99% 골라먹는 즐거움</p>
+  <div class="con6_box wbox">
+    <ul class="box21 box">
+      <li><a href="#"><img src="./img/con6_img1.jpg" alt="x"></a></li>
+      <li><a href="#">샐러드 23종 골라담기</li>
+      <li><a href="#"><span class="sale">21%</span><p class="price">4,900원</p><p class="cost">62,00원</p></a></li>
+    </ul>
+    <ul class="box22 box">
+      <li><a href="#"><img src="./img/con6_img2.jpg" alt="x"></a></li>
+      <li><a href="#">간편식 23종 골라담기 </li>
+      <li><span class="sale">36%</span><p class="price">3,500원</p><p class="cost">5,500원</p></a></li>
+    </ul>
+  </div>
+</div><!-- con6 end -->
+<div class="con7">
+<a href="#"><img src="./img/con7_img1.jpg" alt="x"></a>
+<a href="#"><img src="./img/con7_img2.jpg" alt="x"></a>
+</div><!-- con7 end -->
+</section><!-- contents en -->
+</div><!-- contents container end -->
+<footer id="footer">
+<div class="container">
+  <div class="ftop">
+<div class="notice">
+  <ul class="tit">
+    <li>공지사항</li>
+    <li>더보기></li>
+  </ul>
+  <ul class="txt">
+    <li><a href="#">전제품 국산 양상추 생산 안내</a></li>
+    <li><a href="#">2024년 국군의날 임시공휴일 및 개천절,한글날  배송안내</a></li>
+    <li><a href="#">2024년 추석 배송 일정 안내</a></li>
+    <li><a href="#">샐러드 일부 품목 판매가 인상 안내</a></li>
+  </ul>
+</div>
+<div class="cs">
+  <ul class="tit">
+    <li>고객센터</li>
+    <li>1833-5722</li>
+  </ul>
+  <ul class="txt">
+    <li>월~금:오전10시~오후5시</li>
+    <li>점심시간:오후12시30분~오후1시30분</li>
+    <li>토요일/일요일/공휴일은 휴무</li>
+  </ul>
+  <ul class="border">
+    <li>1:1문의</li>
+    <li>배송조회</li>
+  </ul>
+</div>
+<div class="bank">
+  <ul class="tit">
+    <li>입금계좌안내</li>
+  </ul>
+  <ul class="acc">
+    <li>예금주 : (주)에이타워</li>
+    <li>신한은행 100031681034</li>
+    <li>농협은행 3010197022371</li>
+    <li>국민은행 43183701013928</li>
+    <li>우리은행 1005003043705</li>
+  </ul>
+</div>
+</div><!-- ftop end -->
+</div><!-- footer container end -->
+<div class="fbottom">
+<div class="fb_top">
+  <ul class="f_menu">
+  <li><a href="#">회사소개</a></li><span>|</span>
+  <li><a href="#">이용약관</a></li><span>|</span>
+  <li><a href="#">개인정보처리방침</a></li><span>|</span>
+  <li><a href="#">이용안내</a></li>
+</ul><!-- f_menu end -->
+<ul class="sns">
+  <li><a href="#"><img src="./img/sns_insta.png" alt="x"></a></li>
+  <li><a href="#"><img src="./img/sns_fb.png" alt="x"></a></li>
+  <li><a href="#"><img src="./img/sns_you.png" alt="x"></a></li>
+</ul>
+</div><!-- fb_top end -->
+<div class="fb_bottom">
+<ul class="copy">
+  <li>상호: (주)이프리 | 대표: 유미정 | 개인정보관리책임자: 이연범 | 전화: 1544-7386 | 이메일: epfree@naver.com</li>
+  <li>주소: 대전광역시 유성구 문지로 291, 206호 | 사업자등록번호: 831-81-02134 | 통신판매: 제2021-대전유성-0724호 | 호스팅제공자: (주)식스샵</li>
+ <li>Copyright©pocketsalad.co.krAll rights reserved.</li>
+</ul>
+<div class="logo"><a href="#"><img src="./img/logo1.png" alt="x"></a></div>
+</div><!-- fb_bottom end -->
+</div><!-- fbottom end -->
+
+</footer><!-- footer end -->
+ </div><!-- wrap end -->
+
+</body>
+</html>

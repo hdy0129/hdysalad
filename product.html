@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>상세페이지</title>
+ <link rel="stylesheet" href="./css/style.css">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+ <link rel="stylesheet" href="./css/join.css">
+ <link rel="stylesheet" href="./css/login.css">
+ <link rel="stylesheet" href="./css/cart.css">
+ <link rel="stylesheet" href="./join.html">
+ <link rel="stylesheet" href="./login.html">
+ <link rel="stylesheet" href="./cart.html">
+ <link rel="stylesheet" href="./css/product.css">
+
+ <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+ <script src="https://kit.fontawesome.com/4dc87784b3.js" crossorigin="anonymous"></script>
+ <script src="./js/script.js" defer></script>
+ <script src="./js/login.js"></script>
+ <script src="./js/product.js" defer></script>
+</head>
+<body>
+ <div class="wrap">
+  <header id="header">
+    <div class="container">
+   <div class="htop">
+   <div class="logo_left"></div> 
+   <div class="logo">
+    <a href="./index.html"><img src="./img/logo1.png" alt="x"></a>
+   </div><!-- logo end -->
+   <ul class="login_box">
+    <li><a href="./join.html">회원가입</a><span>|</span></li>
+    <li><a href="./login.html">로그인</a><span>|</span></li>
+    <li><a href="./cart.html">장바구니</a></li>
+   </ul><!-- login_box end -->
+   </div><!-- h_top end -->
+   <div class="hbottom">
+    <input type="text" name="search" id="saladsearch" placeholder="다양한 샐러드">
+   </div><!-- hbottom end -->
+   <div class="menu_box">
+    <ul class="menu">
+     <li><a href="#"><img src="./img/bars-solid.svg" alt="x">전체 카테고리</a></li>
+     <li><a href="#">정기배송</a></li>
+     <li><a href="#">샐러드</a></li>
+     <li><a href="#">베스트</a></li>
+     <li><a href="#">이벤트</a></li>
+     <li><a href="#">고객센터</a></li>
+    </ul>
+   </div>
+   <div class="category_bg">
+    
+    <ul class="c_menu">
+     <li><a href="#">정기배송</a>
+      <ul class="c_submenu">
+       <li><a href="#">식단스타터(1주)</a></li>
+       <li><a href="#">2주식단</a></li>
+       <li><a href="#">4주식단</a></li>
+       <li><a href="#">6주+식단</a></li>
+       <li><a href="#">채소만</a></li>
+       <li><a href="#">간편식</a></li>
+      </ul>
+     </li>
+     <li><a href="#">정기식단</a>
+      <ul class="c_submenu">
+       <li><a href="#">짜여진 식단</a></li>
+       <li><a href="#">두끼 밸런스</a></li>
+       <li><a href="#">급찐급빠</a></li>
+       <li><a href="#">클린핏</a></li>
+       <li><a href="#">칼로리 컷</a></li>
+       <li><a href="#">원클릭 일주일</a></li>
+       <li><a href="#">단기집중</a></li>
+      </ul>
+     </li>
+     <li><a href="#">샐러드</a>
+      <ul class="c_submenu">
+       <li><a href="#">데일리 샐러드</a></li>
+       <li><a href="#">테이스티 샐러드</a></li>
+       <li><a href="#">그린 샐러드</a></li>
+       <li><a href="#">채소만 샐러드</a></li>
+       <li><a href="#">맛보기 세트</a></li>
+      </ul>
+     </li>
+     <li><a href="#">베스트</a>
+      <ul class="c_submenu">
+       <li><a href="#">첫 구매 추천</a></li>
+       <li><a href="#">베스트 식단 TOP5</a></li>
+       <li><a href="#">MD 추천</a></li>
+      </ul>
+     </li>
+    </ul><!-- c_menu end -->
+    
+    <div class="c_close"><button type="button">X</button></div>
+   </div><!-- category_bg end -->
+ </div><!--header container end -->
+  </header><!-- header end -->
+ 
+<div class="product_wrap">
+  <div class="container">
+    <div class="dp_top">
+     
+     <ul class="left_img">
+      <li><img src="./img/dp_img1.jpg" alt="x"></li>
+    </ul><!-- left_img end -->
+    <ul class="right_txt">
+      <li class="r_tit">
+        닭가슴살 샐러드 <span><a href="#"><img src="./img/s_detail_like_icn.png" alt="x"></a></span><p><img src="./img/s_detail_shre_icn.png" alt="x"></p>
+      </li>
+      <li><a href="#"><span class="r_sale">21%</span><p class="r_price">4,900원</p><p class="r_cost">6,200원</p></a></li>
+      <li>배송정보 3,500원 / 주문시 결제(선결제) <span><a href="#">지역별 추가배송비</a></span></li>
+      <li><input type="text" placeholder="상품 옵션을 선택해 주세요."></li>
+      <li><p>베스트 드레싱 추가</p><input type="text" placeholder="추가상품"></li>
+      <li><span class="r_cart">장바구니</span><p class="n_buy">바로구매</p></li>
+    </ul>
+    </div><!-- dp_top end -->
+    <div class="dp_middle">
+      <ul class="tit">
+        <li class="active">상품설명</li>
+        <li>구매후기</li>
+        <li>FAQ</li>
+        <li>상품문의</li>
+      </ul>
+      <ul class="dp">
+        <li><a href="#"><img src="./img/dp_page1.jpg" alt="x"></a></li>
+        <li><a href="#"><img src="./img/dp_page2.jpg" alt="x"></a></li>
+      </ul>
+   </div><!-- dp_middle end -->
+   <div class="dp_bottom">
+    <ul class="review_tit">
+      <li>구매후기</li>
+    </ul><!-- review_tit end -->
+    <div class="review">
+    <ul class="review_left">
+      <li><span>★★★★☆</span><p>신**</p><p>2024-11-15</p></li>
+      <li><span>★★★★★</span><p>김**</p><p>2024-11-15</p></li>
+      <li><span>★★★★★</span><p>이**</p><p>2024-11-13</p></li>
+      <li><span>★★★★☆</span><p>박**</p><p>2024-11-10</p></li>
+   </ul><!-- review left end -->
+   <ul class="review_middle">
+      <li><a href="#">와이프 출산 후 체중조절 하려고 구매했는데, 제가 더 맛있게 먹고 있네요 <br>저도 그덕에 체중 조절 잘 되고 있어요</a></li>
+      <li><a href="#">일상 스케줄 때문에 저녁을 매일 늦은 시간에 먹는데,<br> 매번 과식하지 않고 적당히 먹을 수 있어서 좋아요. </a></li>
+      <li><a href="#">정기배송으로 받고있어요 다음배송때는 다른 샐러드로 변경도 가능해서 한달동안 골고루<br> 여러종류의 샐러드를 먹을수있다는게 큰 장점인거같아요</a></li>
+      <li><a href="#">직장동료와 함께 먹을 도시락으로 시켰어요 여러 회사의 샐러드를 시켜보고<br> 결국 정착하게 된 곳이에요. </a></li>
+   </ul>
+   <ul class="review_right">
+     <li><a href="#"><img src="./img/re_img1.jpg" alt="x"></a></li>
+     <li><a href="#"><img src="./img/re_img2.jpg" alt="x"></a></li>
+     <li><a href="#"><img src="./img/re_img3.jpg" alt="x"></a></li>
+     <li><a href="#"><img src="./img/re_img4.png" alt="x"></a></li>
+   </ul><!-- reiview_right end -->
+  <ul class="review_page">
+    <li><a href="#"><strong>1</strong></a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+  </ul><!-- review_page end -->
+  </div><!-- review end -->
+  <div class="fq">
+   <ul class="fq_tit">
+    <li>배송안내</li>
+   </ul><!-- fq_tit end -->
+   <ul class="fq_txt">
+    <li>
+      <p>배송 비용 : 1회 배송비 3,500원 (1회 배송 시 결제금액 50,000원 이상 무료) <br>
+        배송 기간 : 1일 (제주도, 도서산간 2~3일)<br>
+        배송 안내 : 결제 단계에서 희망 수령일 선택이 가능하며, 출고 당일 오전 제작 안내 알림톡 발송<br><br>
+        
+        - 제주 및 도서 산간지역은 운임 3,000원이 추가 됩니다.<br>  
+        
+        - 신선 식품 배송으로 월요일 및 공휴일 다음날은 배송이 불가합니다.  <br>
+        
+        - 정기배송 상품의 홀딩기간은 주문일로부터 최대 3개월까지 입니다. <br>
+        
+        - 새벽 배송 오전 8시 전 수령, 일반 배송은 자정 12시 전 수령 가능합니다. (네이버페이 구매 시 새벽배송 불가)<br>
+        
+        - 배송 시 연락처 또는 주소 오기재(공동현관 비밀번호 누락 등)로 인해 대응 배송 또는 수령이 되지 않을 경우 반송될 수 있으니 꼭 확인 후 주문 부탁드립니다.<br>
+        
+         - 상품 포장은 종이 박스(새벽 배송 일부) 또는 스티로폼 박스에 아이스팩과 함께 포장하여 배송됩니다.(단, 겨울철에는 아이스팩을 제외하고 배송됩니다)  <br>
+        
+        - 고객님께서 주문하신 상품은 발송되는 날, 당일 제작하여 당일 발송됩니다.<br>   
+        <br>
+      <h3>교환 및 반품안내</h3>
+      <br>  
+      - 제품의 하자나 판매자의 실수로 인한 경우 100% 교환/반품/환불이 가능합니다. <br>
+
+- 식품 특성상 고객님의 단순변심으로 인한 상품 교환 및 반품은 불가하며, 상품 수령 후 임의 반품 및 환불 역시 불가합니다.  <br>
+
+- 정기배송 상품의 경우 첫 배송 수령 후, 구성품 변경이 가능하며 그 전에는 취소 후 재주문하시면 됩니다. <br>
+
+​- 제품 문제 발생 시에는 수령 후 6일 이내 고객센터나 문의하기 게시판으로 접수 부탁드립니다.
+
+  (식품 배송 특성상 사진  확인 후 검토하여 환불 또는 재발송으로 진행)<br>
+- 제품에 하자가 있는 경우, 제품 배송 즉시 판매자에게 사전 전화통화를 해야 하며 판매자 승인없이 임의 반품하는 경우 반품/교환이 제한될 수 있습니다. <br>
+
+
+- 상품 수령후 보관상 발생한 변질, 파손에 대해서는 반품/교환이 제한될 수 있습니다. 
+      
+      </p>
+    </li>
+   </ul><!-- fq_txt end -->
+  </div><!-- fq end -->
+<div class="qa">
+<ul class="qa_tit">
+  <li>상품 Q&A</li>
+</ul>
+<ul class="qa_txt">
+  <li><span>14</span><p><i class="fa-solid fa-lock"></i></i>문의 드립니다.</p><span>홍**</span><span>2024.12.10</span><span>답변완료</span></li>
+  <li><span>13</span><p><i class="fa-solid fa-lock"></i></i>문의 드립니다.</p><span>김**</span><span>2024.12.05</span><span>답변완료</span></li>
+  <li><span>12</span><p><i class="fa-solid fa-lock"></i></i>문의 드립니다.</p><span>김**</span><span>2024.11.29</span><span>답변완료</span></li>
+  <li><span>11</span><p><i class="fa-solid fa-lock"></i></i>문의 드립니다.</p><span>천**</span><span>2024.11.27</span><span>답변완료</span></li>
+</ul>
+<ul class="qa_page">
+  <li><a href="#"><strong>1</strong></a></li>
+  <li><a href="#">2</a></li>
+  <li><a href="#">3</a></li>
+  <li><a href="#">4</a></li>
+</ul><!-- review_page end -->
+</div><!-- qa end -->
+
+   </div><!-- dp_bottom end -->
+    
+  
+</div><!-- product_wrap container end -->
+  </div><!-- product_wrap end -->
+<footer id="footer">
+ 
+ 
+ <div class="fbottom">
+ <div class="fb_top">
+   <ul class="f_menu">
+   <li><a href="#">회사소개</a></li><span>|</span>
+   <li><a href="#">이용약관</a></li><span>|</span>
+   <li><a href="#">개인정보처리방침</a></li><span>|</span>
+   <li><a href="#">이용안내</a></li>
+ </ul><!-- f_menu end -->
+ <ul class="sns">
+   <li><a href="#"><img src="./img/sns_insta.png" alt="x"></a></li>
+   <li><a href="#"><img src="./img/sns_fb.png" alt="x"></a></li>
+   <li><a href="#"><img src="./img/sns_you.png" alt="x"></a></li>
+ </ul>
+ </div><!-- fb_top end -->
+
+ <div class="fb_bottom">
+ <ul class="copy">
+ 
+    <li>상호: (주)이프리 | 대표: 유미정 | 개인정보관리책임자: 이연범 | 전화: 1544-7386 | 이메일: epfree@naver.com</li>
+    <li>주소: 대전광역시 유성구 문지로 291, 206호 | 사업자등록번호: 831-81-02134 | 통신판매: 제2021-대전유성-0724호 | 호스팅제공자: (주)식스샵</li>
+   <li>Copyright©pocketsalad.co.krAll rights reserved.</li>
+ </ul>
+ <div class="logo"><a href="#"><img src="./img/logo1.png" alt="x"></a></div>
+ </div><!-- fb_bottom end -->
+ </div><!-- fbottom end -->
+ 
+ </footer><!-- footer end -->
+  </div><!-- wrap end -->
+ 
+</body>
+</html>

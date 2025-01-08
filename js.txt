@@ -1,0 +1,53 @@
+/*$(".s2,.s3").hide()
+setInterval (slide)
+function slide(){
+ $(".slide").delay(1500)
+ $(".s1").fadeOut(1000)
+ $(".s2").fadeIn(1000)
+ $(".slide").delay(1500)
+ $(".s2").fadeOut(1000)
+ $(".s3").fadeIn(1000)
+ $(".slide").delay(1500)
+ $(".s3").fadeOut(1000)
+ $(".s1").fadeIn(1000)
+ $(".slide").delay(1500)
+ $(".s3").fadeOut(1000)
+ $(".s4").fadeIn(1000)
+ $(".slide").delay(1500)
+ $(".s4").fadeOut(1000)
+ $(".s5").fadeIn(1000)
+ $(".slide").delay(1500)
+ $(".s5").fadeOut(1000)
+ $(".s1").fadeIn(1000)
+}*/
+
+$(".category_bg").hide()
+$(".menu>li:nth-child(1)>a").click(function(){
+ $(".category_bg").fadeIn()
+})
+$(".c_close>button").click(function(){
+ $(".category_bg").fadeOut()
+})
+
+//swiper slide
+var swiper = new Swiper("#main .mySwiper", {
+ cssMode: true,
+ navigation: {
+   nextEl: ".swiper-button-next",
+   prevEl: ".swiper-button-prev",
+ },
+ pagination: {
+   el: ".swiper-pagination",
+ },
+ mousewheel: true,
+ keyboard: true,
+});
+
+//con2 swiper slide
+
+var swiper = new Swiper(".con2_img .mySwiper", {
+ navigation: {
+   nextEl: ".swiper-button-next",
+   prevEl: ".swiper-button-prev",
+ },
+});
